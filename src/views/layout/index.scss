@@ -1,0 +1,22 @@
+header.ant-layout-header.header {
+  img.App-logo {
+    width: 64px;
+  }
+}
+section.ant-layout.sider.content {
+  overflow: hidden;
+  height: calc(100vh - 64px);
+  aside.ant-layout-sider.ant-layout-sider-dark.site-layout-background {
+    background-color: #fff;
+    .ant-layout-sider-children {
+      overflow: auto;
+    }
+    .ant-layout-sider-children::-webkit-scrollbar {
+      display: none;
+    }
+    section.ant-layout.content {
+      overflow: hidden;
+      height: calc(100vh - 64px);
+    }
+  }
+}
